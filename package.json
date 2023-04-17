@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "open": "npx cypress open",
     "open:cypress": "./node_modules/.bin/cypress open",
-    "e2e": "cypress open --e2e --browser chrome"
+    "e2e": "cypress open --e2e --browser chrome",
+    "cy:headless": "npx cypress run"
   },
   "repository": {
     "type": "git",
